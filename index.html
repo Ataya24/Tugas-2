@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ruang Baca Kampus</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-[#f9fafb] font-[Arial,Helvetica,sans-serif] leading-[1.6] text-[#1f2937]">
+
+  <header class="flex items-center justify-between bg-[#1e3a5f] px-12 py-4 text-white max-[800px]:flex-col max-[800px]:gap-3 max-[800px]:px-6">
+    <a href="#tentang" class="flex items-center gap-2.5 text-xl font-bold no-underline">
+      <span class="flex size-9 items-center justify-center rounded-lg bg-[#f59e0b] font-bold text-[#1e3a5f]">RB</span>
+      <span>Ruang Baca</span>
+    </a>
+    <nav>
+      <ul class="flex list-none gap-7">
+        <li><a class="hover:text-[#f59e0b]" href="#tentang">Tentang</a></li>
+        <li><a class="hover:text-[#f59e0b]" href="#layanan">Layanan</a></li>
+        <li><a class="hover:text-[#f59e0b]" href="#galeri">Galeri</a></li>
+        <li><a class="hover:text-[#f59e0b]" href="#kontak">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="tentang" class="px-12 py-[72px] max-[800px]:px-6 max-[800px]:py-12">
+      <div class="mx-auto max-w-[1000px]">
+        <h1 class="mb-4 text-[2.4rem]">Selamat datang di Ruang Baca Kampus</h1>
+        <p>Ruang Baca adalah perpustakaan komunitas yang dikelola mahasiswa. Kami menyediakan buku kuliah, novel, dan jurnal untuk dibaca di tempat atau dipinjam selama dua minggu. Pengurus membuka ruang baca setiap hari kerja pukul 08.00 sampai 20.00.</p>
+      </div>
+    </section>
+
+    <section id="layanan" class="bg-[#eef2f7] px-12 py-[72px] max-[800px]:px-6 max-[800px]:py-12">
+      <div class="mx-auto max-w-[1000px]">
+        <h2 class="mb-4">Layanan Kami</h2>
+        <p>Anggota bisa memakai tiga layanan utama berikut.</p>
+        <div class="mt-6 grid grid-cols-3 gap-6 max-[800px]:grid-cols-1">
+          <article class="rounded-[10px] border border-[#d9e0ea] bg-white p-6">
+            <h3 class="mb-2 text-[#1e3a5f]">Peminjaman Buku</h3>
+            <p>Pinjam hingga tiga buku sekali datang. Perpanjang masa pinjam satu kali di meja pengurus.</p>
+          </article>
+          <article class="rounded-[10px] border border-[#d9e0ea] bg-white p-6">
+            <h3 class="mb-2 text-[#1e3a5f]">Ruang Diskusi</h3>
+            <p>Pesan ruang untuk kelompok 4 sampai 8 orang. Ruang dilengkapi papan tulis dan stop kontak.</p>
+          </article>
+          <article class="rounded-[10px] border border-[#d9e0ea] bg-white p-6">
+            <h3 class="mb-2 text-[#1e3a5f]">Klub Baca</h3>
+            <p>Setiap Jumat sore, anggota membahas satu buku pilihan bersama pengurus.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="galeri" class="bg-white px-12 py-[72px] max-[800px]:px-6 max-[800px]:py-12">
+      <div class="mx-auto max-w-[1000px]">
+        <h2 class="mb-4">Galeri</h2>
+        <p>Beberapa sudut Ruang Baca yang sering anggota pakai.</p>
+        <div class="mt-6 grid grid-cols-3 gap-6 max-[800px]:grid-cols-1">
+          <div class="flex h-40 items-center justify-center overflow-hidden rounded-[10px] border border-[#d9e0ea] bg-[#1e3a5f] font-bold text-white"><img class="block size-full object-cover" src="./img/libarary-1.jpg" alt="Rak Buku Utama"></div>
+          <div class="flex h-40 items-center justify-center overflow-hidden rounded-[10px] border border-[#d9e0ea] bg-[#1e3a5f] font-bold text-white"><img class="block size-full object-cover" src="./img/libarary-2.jpg" alt="Meja Baca"></div>
+          <div class="flex h-40 items-center justify-center overflow-hidden rounded-[10px] border border-[#d9e0ea] bg-[#1e3a5f] font-bold text-white"><img class="block size-full object-cover" src="./img/libarary-3.jpg" alt="Ruang Diskusi"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="kontak" class="flex items-start gap-10 bg-[#14263f] px-12 py-10 text-[#d1d9e6] max-[800px]:flex-col max-[800px]:items-center max-[800px]:px-6 max-[800px]:py-8 max-[800px]:text-center">
+    <div class="flex-1 text-white">
+      <div class="flex items-center gap-2.5 text-xl font-bold">
+        <span class="flex size-9 items-center justify-center rounded-lg bg-[#f59e0b] font-bold text-[#1e3a5f]">RB</span>
+        <span>Ruang Baca</span>
+      </div>
+    </div>
+
+    <div class="flex-1 text-center">
+      <p>Perpustakaan komunitas mahasiswa dengan koleksi buku kuliah, novel, dan jurnal.</p>
+    </div>
+
+    <div class="flex-1 text-right max-[800px]:text-center">
+      <ul class="list-none">
+        <li>Jl. Merdeka No. 10, Jakarta</li>
+        <li class="mt-1"><a class="hover:text-[#f59e0b]" href="mailto:halo@ruangbaca.example">halo@ruangbaca.example</a></li>
+        <li class="mt-1">Senin - Jumat, 08.00 - 20.00</li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
